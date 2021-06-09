@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="How Translation Works in GNOME">
+  <meta property="og:description" content="A brief description of the Translation workflow in GNOME">
+
+  <title>How Translation Works in GNOME</title>
+  <meta name="description" content="A brief description of the Translation workflow in GNOME">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Amanda  Shafack</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>How Translation Works in GNOME</b></h1>
+
+<p class="post-metadata text-muted">
+  18 December 2020 -  
+  <b>2 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#gnome">
+      <span class="tag badge badge-pill text-primary border border-primary">GNOME</span>
+    </a>
+    </p>
+
+<h2 id="overview">Overview</h2>
+
+<p>GNOME uses a web application called Damned Lies (DL) to manage their translation work-flow and produce 
+statistics to monitor the translation progress. DL is specifically intended to be used within GNOME. 
+There used to be a separate tool called Vertimus but it has been merged  into DL.
+Participants in the translation of GNOME belong to translation teams, one for each language to which 
+GNOME is translated, and they can have one of three roles: translator, reviewer and committer</p>
+
+<blockquote>
+  <p>Let’s dig deeper into what these roles entails…</p>
+</blockquote>
+
+<h2 id="translation-roles">Translation Roles</h2>
+
+<h3 id="1-translators">1. Translators</h3>
+
+<p>Translators contains persons helping with GNOME translations into a specific language, who added themselves to the translation team.Translators could add comment to a specific PO file translation, 
+could reserve it for translations and could suggest new translations by up471 load a new PO file. 
+The suggested translations will be reviewed by other team members</p>
+
+<h3 id="2-reviewer">2. Reviewer</h3>
+
+<p>Reviewers are GNOME translators which were assigned by the team coordinator to review newly suggested translations(by translators,reviews or committers). They have access to all actions available to a translators with the addition of some reviewing task (ex reserve a translation file for proofreading, mark a translation as being ready to be included in GNOME).</p>
+
+<h3 id="3-committer">3. Committer</h3>
+
+<p>Committers are people with rights to make changes to the GNOME translations that will be release.
+Unless a translations is not commit481 ted by a committer, it will only remain visible in the web interface, as an attached PO file. Committers have access to all actions of a reviewer with the addition of marking a PO file as committed and archiving a discussion for new suggestions.</p>
+
+<h2 id="the-translation-workflow">The Translation Workflow</h2>
+
+<p>The workflow used for managing translations is called the <a href="https://l10n.gnome.org/help/vertimus_workflow/">Vertimus Workflow</a>. It describes the various states and actions available during the translation process of a module.
+My focus will be on the orange section of the workflow, which is peculiar to translators (as illustrated here <a href="https://l10n.gnome.org/help/vertimus_workflow/">workflow image</a></p>
+
+<ul>
+  <li>The base state of a module is None, which shows as “Inactive” in Damned lies.</li>
+  <li>A translator can then decide to work on a module, so they will <strong>Reserve for Translation</strong> which changes the state from <strong>None -&gt; Translating</strong>.</li>
+  <li>Another pathway that enables one to perform a <strong>Reserve for Translation</strong> is moving from the <strong>To review -&gt; Translating</strong> state. This happens when a module was not properly translated.</li>
+  <li>When a translator is done translating, they can then <strong>Upload the new translation</strong>, which changes the state from <strong>Translating</strong> -&gt; <strong>Translated</strong></li>
+  <li>Again, if a module needs to be improved after being translated, it moves from <strong>Translated -&gt; Tranlating</strong></li>
+  <li>Bear in mind that translators can add comments at any point in order to give more context to their work.</li>
+</ul>
+
+<blockquote>
+  <p>This post is in a bit to evaluate my understanding. I’ll appreciate any feedback so I can improve and or correct any misconceptions.</p>
+</blockquote>
+
+<p>Thanks!!</p>
+
+<h3 id="referencesmore-reads">References/More Reads</h3>
+<ul>
+  <li><a href="https://www.apertis.org/designs/internationalization/internationalization.pdf">APERTIS - Internationalization</a></li>
+  <li><a href="https://wiki.gnome.org/TranslationProject/ContributeTranslations">GNOME Wiki</a></li>
+  <li><a href="https://socialsourcecommons.org/tool/show/2642/">Social Source Commons</a></li>
+</ul>
+
+
+
+<div class="pt-5">
+  
+</div>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Amanda  Shafack</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.github.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/8683523"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>

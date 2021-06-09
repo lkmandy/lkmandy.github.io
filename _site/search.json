@@ -1,0 +1,59 @@
+[
+  
+    {
+      "title"    : "Next Steps after Outreachy",
+      "category" : "",
+      "tags"     : "Outreachy",
+      "url"      : "/blog/next-steps-after-outreachy",
+      "date"     : "2021-03-05 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "New Features on the Translation Editor",
+      "category" : "",
+      "tags"     : "GNOME, Open-source",
+      "url"      : "/blog/new-features-on-the-translation-editor",
+      "date"     : "2021-03-05 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Outreachy Progress Report",
+      "category" : "",
+      "tags"     : "Outreachy",
+      "url"      : "/blog/outreachy-progress-report",
+      "date"     : "2021-01-24 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "My Learning Curve at the GNOME Foundation",
+      "category" : "",
+      "tags"     : "Outreachy",
+      "url"      : "/blog/my-learning-curve-at-the-gnome-foundation",
+      "date"     : "2021-01-10 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Everybody Struggles",
+      "category" : "",
+      "tags"     : "Outreachy",
+      "url"      : "/blog/everybody-struggles",
+      "date"     : "2020-12-21 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "How Translation Works in GNOME",
+      "category" : "",
+      "tags"     : "GNOME",
+      "url"      : "/blog/how-translation-works-in-gnome",
+      "date"     : "2020-12-18 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "Tips on the Outreachy Program",
+      "category" : "",
+      "tags"     : "Outreachy",
+      "url"      : "/blog/tips-on-getting-selected-for-the-outreachy-program",
+      "date"     : "2020-12-02 00:00:00 +0100"
+    } 
+  
+]

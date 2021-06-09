@@ -1,0 +1,11 @@
+- name: Dart/Flutter
+  percentage: 65
+  color: success
+
+- name: C/GTK
+  percentage: 60
+  color: primary
+
+- name: Python
+  percentage: 45
+  color: dark

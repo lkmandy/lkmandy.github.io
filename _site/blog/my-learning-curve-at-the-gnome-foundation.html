@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="My Learning Curve at the GNOME Foundation">
+  <meta property="og:description" content="A summary of how I evolved skill-wise while working on GNOME's Translation Editor">
+
+  <title>My Learning Curve at the GNOME Foundation</title>
+  <meta name="description" content="A summary of how I evolved skill-wise while working on GNOME's Translation Editor">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Amanda  Shafack</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>My Learning Curve at the GNOME Foundation</b></h1>
+
+<p class="post-metadata text-muted">
+  10 January 2021 -  
+  <b>5 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#outreachy">
+      <span class="tag badge badge-pill text-primary border border-primary">Outreachy</span>
+    </a>
+    </p>
+
+<p><img src="https://image.freepik.com/free-psd/crumpled-paper-form-light-bulb-more-you-learn-more-you-earn-quote_23-2148347760.jpg" alt="" /></p>
+
+<p>It’s been six weeks since I started this exciting journey as an Outreachy intern at the GNOME Foundation.
+Every week, I have a set of tasks to work on and a project review session every start of the week with my mentor.<br />
+During these sessions I present the work I’ve done, challenges I faced and then get feedback. I’ve had to learn most things on the go and every task comes with it’s own unique flavour of difficulty and discovery.
+<em>Let’s take a quick look at the project I’m working on…</em></p>
+
+<p>My project is based on completing the integration between Gtranslator and Damned Lies(DL), so as to permit translators to upload files and reserve for translation directly from Gtranslator.(This is already possible from the DL website).
+I also need to extend the API(Application Programming Interface) endpoints DL provides so as to suite my use case.</p>
+
+<h4 id="gtranslator">Gtranslator</h4>
+
+<p>Gtranslator is an enhanced gettext po file editor for the GNOME desktop environment. It handles all forms of gettext po files and includes very useful features like find/replace, translation memory, different translator profiles, messages table, easy navigation and editing of translation messages and comments of the translation where accurate.</p>
+
+<p>A .po file is simply a list of strings from the original program. They contain the actual translations. Each language has its own .po file; for example, for French there would be a fr.po file, for German there would be a de.po, for American English there might be en-US.po.</p>
+
+<blockquote>
+  <p>Gtranslator is now officially called the GNOME Translation Editor <a href="https://wiki.gnome.org/Apps/Gtranslator">source</a></p>
+</blockquote>
+
+<h4 id="damned-lies">Damned Lies</h4>
+
+<p>Damned Lies is a web application that was built using Django to manage GNOME’s translation work-flow and produce 
+statistics to monitor the translation progress.
+You might be wondering why the name, right? so here you go - “Lies, damned lies, and statistics” is a phrase describing the persuasive power of numbers, particularly the use of statistics to bolster weak arguments.</p>
+
+<blockquote>
+  <p>Let’s now find out how I have progressed in my learning so far…</p>
+</blockquote>
+
+<h3 id="difficulty-levels">Difficulty Levels</h3>
+
+<p>First off keep an eye on this “letter map”, I’ll use the letters defined below to depict the difficulty level of a particular week.</p>
+
+<ul>
+  <li><strong>E:</strong> Easy</li>
+  <li><strong>N:</strong> Normal</li>
+  <li><strong>H:</strong> Hard</li>
+  <li><strong>V:</strong> Very Hard</li>
+</ul>
+
+<h3 id="week-one">Week One</h3>
+
+<p>It was an <strong>E</strong>!</p>
+<ul>
+  <li>
+    <p>I setup my blog (lkmandy.github.io), added it to gnome planet and wrote a blogpost on <a href="https://lkmandy.github.io/lkmandy.github.io/blog/2020/tips-on-getting-selected-for-the-outreachy-program/">Tips on Getting Selected for the Outreachy Program</a></p>
+  </li>
+  <li>Setup the Damned Lies project</li>
+  <li>Covered some concepts in Django, REST APIs and the HTTP verbs</li>
+</ul>
+
+<h3 id="week-two">Week Two</h3>
+
+<p>I’ll give it an <strong>N</strong>!</p>
+<ul>
+  <li>Did some intensive research on Django API authentication(auth) methods and eventually settled on the Django REST API framework. Django has soo many auth packages to choose from, so this was quite a task.</li>
+  <li>Added some endpoints for user authentication and yes this means I built a REST API!! Yay!! My very first!!</li>
+</ul>
+
+<h3 id="week-three">Week Three</h3>
+
+<p>Returned to an <strong>E</strong>!</p>
+<ul>
+  <li>Submitted a Work In Progress Merge Request for the REST API I built</li>
+  <li>Did some research on the JSON-Glib and Libsoup libraries.</li>
+  <li>Added a “Reserve for Translation button” on the Gtranslator user interface (just in a bid to setup for the main work)</li>
+  <li>Wrote a blogpost on <a href="https://lkmandy.github.io/lkmandy.github.io/blog/2020/how-translation-works-in-gnome/">How Translation works in GNOME</a></li>
+</ul>
+
+<h3 id="week-four">Week Four</h3>
+
+<p>Somewhat <strong>H</strong>!<br />
+<em>Mainly because I had to research and troubleshoot a lot before seeing the green light</em></p>
+<ul>
+  <li>Added the module state to the Load from DL interface and submitted a Merge Request</li>
+  <li>Enabled the “Reserve for translation button” to work for the appropriate states as on the vertimus workflow (a diagram that describes the various states and actions available during the translation process of a module) and I equally submitted a Merge Request.</li>
+  <li>Added an icon for the upload to DL feature (just did this locally on a separate branch)</li>
+</ul>
+
+<h3 id="week-five">Week Five</h3>
+
+<p>And I’ll give it an <strong>E</strong>!</p>
+<ul>
+  <li>Designed two mockups for the “upload file dialog”</li>
+  <li>Coded one part of the upload file dialog(the choose file dialog)</li>
+  <li>Tried adding the token auth information to Gtranslator, but didn’t succeed.</li>
+</ul>
+
+<h3 id="week-six">Week Six</h3>
+
+<p>I can’t lie oh, it’s a <strong>V</strong>
+<em>I’m currently on this week and it finishes in one days as of the time I am writing this blogpost</em></p>
+<ul>
+  <li>Stored the DL information on every translation file downloaded from DL</li>
+  <li>Added custom headers to a file with the DL information if it’s downloaded from DL</li>
+  <li>Create the “upload file” dialog (WIP)</li>
+</ul>
+
+<p><em>A few things I’ve helped me scale through, let’s check them out…</em></p>
+
+<h4 id="tricks">Tricks</h4>
+
+<ul>
+  <li>After my project review session, I go through the discussion my mentor and I (and maybe some other community members) just had, pick out all the key point mentioned and summarize them in my evernote sheet.
+<em>My mentor usually does a recap of the goals I need to achieve for the week, which is also very very helpful</em></li>
+  <li>I read through my summary several times to make sure i don’t miss out on any detail</li>
+  <li>When a task gets hard, I never give up. I just take breaks and push hard until I succeed.</li>
+  <li>I do extensive research and go through documentation before implementing stuff</li>
+  <li>I submit Merge Requests as early as possible so I can get quick feedback (kudos to my mentor for this)</li>
+</ul>
+
+<blockquote>
+  <p>It’s been an interesting journey and I’m very happy with all the new things I get to learn everyday.<br />
+The end!!
+See you on the next one!!</p>
+</blockquote>
+
+<p>Thanks!!</p>
+
+
+
+<div class="pt-5">
+  
+</div>
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Amanda  Shafack</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.github.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/8683523"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>

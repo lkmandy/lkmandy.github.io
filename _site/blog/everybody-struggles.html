@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Everybody Struggles">
+  <meta property="og:description" content="A list of things I struggled with during my Outreachy internship and key lessons I learnt.">
+
+  <title>Everybody Struggles</title>
+  <meta name="description" content="A list of things I struggled with during my Outreachy internship and key lessons I learnt.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Amanda  Shafack</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 post">
+  <h1><b>Everybody Struggles</b></h1>
+
+<p class="post-metadata text-muted">
+  21 December 2020 -  
+  <b>3 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#outreachy">
+      <span class="tag badge badge-pill text-primary border border-primary">Outreachy</span>
+    </a>
+    </p>
+
+<p><img src="https://image.freepik.com/free-photo/upset-tired-woman-keeps-both-hands-temples-frowns-face-feels-overworked-after-working-long-time_273609-33989.jpg" alt="" /></p>
+
+<p>During week two (December 8 to 14) of my internship at the GNOME foundation, my main task was to research on the Django “API” authentication methods and implement a mode of Authentication, that will provide a secret random string, instead of the usual user-password mode to authenticate users, who had to gain access to the write APIs I was going to develop. My mentor recommended I go the Api key way, so I went on to do my work.</p>
+
+<blockquote>
+  <p>The first issue was picking the right Django app/package to use from the bunch of packages I found:</p>
+</blockquote>
+
+<h3 id="django-packages">Django Packages</h3>
+
+<ul>
+  <li>Django rest framework</li>
+  <li>Django Tastypie</li>
+  <li>GRAPHENE-DJANGO</li>
+  <li>Piston</li>
+</ul>
+
+<p><em>Just to name a few</em>…</p>
+
+<p>Luckily I stumbled on the <a href="https://djangopackages.org/grids/g/api/">Django packages grid</a> which clearly outlined the features of each package. It became crystal clear that the Django rest framework was the real deal.</p>
+
+<p>The next challenge was the Auth section of the <a href="https://www.django-rest-framework.org/api-guide/authentication/#tokenauthentication">Django Rest Framework</a> documentation didn’t speak the Api Key language, but rather the Token-based Auth language. As a beginner, this was quite confusing and I kept wondering what the difference between these two was.</p>
+
+<blockquote>
+  <p>I did some extensive research and here’s what I found…</p>
+</blockquote>
+
+<h3 id="api-keys">API Keys</h3>
+
+<ul>
+  <li>
+    <p>Using API keys is a way to authenticate an application accessing the API, without referencing an actual user. The app adds the key to each API request, and the API can use the key to identify the application and authorize the request. The key can then be used to perform things like rate limiting, statistics, and similar actions.
+<a href="https://nordicapis.com/the-difference-between-http-auth-api-keys-and-oauth/">source - Nordic APIs</a></p>
+  </li>
+  <li>
+    <p>An application programming interface key (API key) is a unique code that is passed in to an API to identify the calling application or user. API keys are used to track and control how the API is being used, for example to prevent malicious use or abuse of the API. The API key often acts as both a unique identifier and a secret token for authentication, and is assigned a set of access that is specific to the identity that is associated with it.<br />
+<a href="https://cloud.ibm.com/docs/account?topic=account-manapikey">source - IBM Cloud</a></p>
+  </li>
+  <li>
+    <p>The only django package that provided an option for apikeys added to this to their README file <em>Please note that this package is NOT meant for authentication. You should NOT use this package to identify individual users, either directly or indirectly.</em> <a href="https://florimondmanca.github.io/djangorestframework-api-key/">source</a></p>
+  </li>
+</ul>
+
+<h3 id="token-based-authentication">Token-based Authentication</h3>
+
+<ul>
+  <li>Token-based authentication is a protocol which allows users to verify their identity, and in return receive a unique access token. During the life of the token, users then access the website or app that the token has been issued for, rather than having to re-enter credentials each time they go back to the same webpage, app, or any resource protected with that same token. <a href="https://www.okta.com/identity-101/what-is-token-based-authentication/#:~:text=Token%2Dbased%20authentication%20is%20a,receive%20a%20unique%20access%20token.&amp;text=Auth%20tokens%20work%20like%20a,app%2C%20the%20token%20is%20invalidated.">source - Okta</a></li>
+</ul>
+
+<blockquote>
+  <p>Reading these conflicting write-ups confused me further and I wasn’t exactly sure which one was right for my use case. What I was sure about was that I needed to authenticate users before they could gain access to the write APIs</p>
+</blockquote>
+
+<p>I reached out to a few people and got some very good clarifications. It became clear that Token-based Authentication was the way to go because it met my requirements and was better supported by the Django rest framework.</p>
+
+<h3 id="lessons-learnt">Lessons Learnt</h3>
+
+<ul>
+  <li>Always ask for help from a more experienced person when you’re stuck, it will save you a lot of time.</li>
+  <li>Read articles keenly, some maybe outdated or provide details which may not be totally correct or could just be suited for some particular use cases.</li>
+</ul>
+
+<p><em>Let me know what you think about the Api Key Vs Token Auth Struggle…</em></p>
+
+
+
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Amanda  Shafack</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.github.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/8683523"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/lkmandy"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+  
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+
+</body>
+
+</html>
