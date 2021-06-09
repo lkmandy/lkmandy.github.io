@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Amanda  Shafack</title>
+        <description>The Future Belongs To The Competent. Find Your Fire, Get Good, Get Better, Become The Best!  – Brian Tracy  </description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.gnome.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Wed, 09 Jun 2021 13:18:12 +0100</pubDate>
+        <lastBuildDate>Wed, 09 Jun 2021 13:18:12 +0100</lastBuildDate>
+        <generator>Jekyll v3.9.0</generator>
+        
+            <item>
+                <title>New Features on the Translation Editor</title>
+                <author>shafack.likhene@gmail.com (Amanda Shafack)</author>
+                <description>&lt;p&gt;&lt;img src=&quot;https://image.freepik.com/free-vector/new-functions-concept-illustration_114360-6156.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;New feature alert!!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I just wrapped up with my Outreachy internship at the GNOME foundation and I’m very excited to say it’s now possible to “reserve” and “upload” a translation module, directly from the GNOME Translation Editor. However, these changes are yet to be added to the master branch; definitely after the string freeze. There are still a number of UI/UX improvements that need to be done but it’s functional.
+As with every new version, there’s always room for improvement so don’t hesitate to provide feedback.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-reserve-for-translation&quot;&gt;I. Reserve for translation&lt;/h2&gt;
+
+&lt;p&gt;You can reserve a translation module (aka po file) to let other team members know you are currently working on a particular po file, so that multiple people don’t work on one file at a given moment.&lt;/p&gt;
+
+&lt;p&gt;To reserve a translation module:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Click on the Load from DL button (if you are on the main window) or Open from Damned Lies icon (if a po file is open) in the header bar. You can also use the Ctrl+D keyboard shortcut.&lt;/li&gt;
+  &lt;li&gt;Select your desired po file; specifying the particular team, module, branch and domain.&lt;/li&gt;
+  &lt;li&gt;The state of the po file is displayed.&lt;/li&gt;
+  &lt;li&gt;Select the “Reserve for translation” checkbox to reserve your chosen po file.&lt;/li&gt;
+  &lt;li&gt;A message dialog will display the status of the operation.&lt;/li&gt;
+  &lt;li&gt;If the message dialog displays a success message, you have successfully reserved the po file for translation.&lt;/li&gt;
+  &lt;li&gt;If the “Reserve for translation” checkbox is deactivated, it means the po file cannot be reserved. This is because it is not in the appropriate state. See the &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&quot;&gt;Vertimus workflow&lt;/a&gt; for more details.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ii-upload-a-new-translation&quot;&gt;II. Upload a new translation&lt;/h2&gt;
+
+&lt;p&gt;After translating a po file, you can upload it to Damned Lies(DL) to make the new version available to everyone and to make DL show the new statistics for that file. Note that the po file that is uploaded is that which is currently open at a given time; as it is not yet possible to manually select a file to upload.&lt;/p&gt;
+
+&lt;p&gt;To upload a po file:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Click on the Upload file icon in the header bar or use the Ctrl+B keyboard shortcut.&lt;/li&gt;
+  &lt;li&gt;A message dialog will display the status of the operation.&lt;/li&gt;
+  &lt;li&gt;If the message dialog displays a success message, you have successfully uploaded the po file to Damned Lies.&lt;/li&gt;
+  &lt;li&gt;Again, if the Upload file icon is deactivated, it means the po file cannot be uploaded. This is because it is not in the appropriate state. Again, see the &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&amp;quot;&quot;&gt;vertimus workflow&lt;/a&gt; for more details.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note that a po file must be reserved (in the state; Translating) before it can be uploaded to Damned Lies&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s been a very interesting learning experience and I’m very glad with this milestone.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Many thanks to my mentor Daniel Garcia Moreno (@danigm) for his superb mentorship and support through out my internship&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks!!&lt;/p&gt;
+</description>
+                <pubDate>Fri, 05 Mar 2021 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/blog/new-features-on-the-translation-editor</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/new-features-on-the-translation-editor</guid>
+                
+                <category>GNOME</category>
+                
+                <category>Open-source</category>
+                
+                
+            </item>
+        
+            <item>
+                <title>How Translation Works in GNOME</title>
+                <author>shafack.likhene@gmail.com (Amanda Shafack)</author>
+                <description>&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;GNOME uses a web application called Damned Lies (DL) to manage their translation work-flow and produce 
+statistics to monitor the translation progress. DL is specifically intended to be used within GNOME. 
+There used to be a separate tool called Vertimus but it has been merged  into DL.
+Participants in the translation of GNOME belong to translation teams, one for each language to which 
+GNOME is translated, and they can have one of three roles: translator, reviewer and committer&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s dig deeper into what these roles entails…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;translation-roles&quot;&gt;Translation Roles&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-translators&quot;&gt;1. Translators&lt;/h3&gt;
+
+&lt;p&gt;Translators contains persons helping with GNOME translations into a specific language, who added themselves to the translation team.Translators could add comment to a specific PO file translation, 
+could reserve it for translations and could suggest new translations by up471 load a new PO file. 
+The suggested translations will be reviewed by other team members&lt;/p&gt;
+
+&lt;h3 id=&quot;2-reviewer&quot;&gt;2. Reviewer&lt;/h3&gt;
+
+&lt;p&gt;Reviewers are GNOME translators which were assigned by the team coordinator to review newly suggested translations(by translators,reviews or committers). They have access to all actions available to a translators with the addition of some reviewing task (ex reserve a translation file for proofreading, mark a translation as being ready to be included in GNOME).&lt;/p&gt;
+
+&lt;h3 id=&quot;3-committer&quot;&gt;3. Committer&lt;/h3&gt;
+
+&lt;p&gt;Committers are people with rights to make changes to the GNOME translations that will be release.
+Unless a translations is not commit481 ted by a committer, it will only remain visible in the web interface, as an attached PO file. Committers have access to all actions of a reviewer with the addition of marking a PO file as committed and archiving a discussion for new suggestions.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-translation-workflow&quot;&gt;The Translation Workflow&lt;/h2&gt;
+
+&lt;p&gt;The workflow used for managing translations is called the &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&quot;&gt;Vertimus Workflow&lt;/a&gt;. It describes the various states and actions available during the translation process of a module.
+My focus will be on the orange section of the workflow, which is peculiar to translators (as illustrated here &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&quot;&gt;workflow image&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The base state of a module is None, which shows as “Inactive” in Damned lies.&lt;/li&gt;
+  &lt;li&gt;A translator can then decide to work on a module, so they will &lt;strong&gt;Reserve for Translation&lt;/strong&gt; which changes the state from &lt;strong&gt;None -&amp;gt; Translating&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Another pathway that enables one to perform a &lt;strong&gt;Reserve for Translation&lt;/strong&gt; is moving from the &lt;strong&gt;To review -&amp;gt; Translating&lt;/strong&gt; state. This happens when a module was not properly translated.&lt;/li&gt;
+  &lt;li&gt;When a translator is done translating, they can then &lt;strong&gt;Upload the new translation&lt;/strong&gt;, which changes the state from &lt;strong&gt;Translating&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Translated&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Again, if a module needs to be improved after being translated, it moves from &lt;strong&gt;Translated -&amp;gt; Tranlating&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Bear in mind that translators can add comments at any point in order to give more context to their work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This post is in a bit to evaluate my understanding. I’ll appreciate any feedback so I can improve and or correct any misconceptions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thanks!!&lt;/p&gt;
+
+&lt;h3 id=&quot;referencesmore-reads&quot;&gt;References/More Reads&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.apertis.org/designs/internationalization/internationalization.pdf&quot;&gt;APERTIS - Internationalization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/TranslationProject/ContributeTranslations&quot;&gt;GNOME Wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://socialsourcecommons.org/tool/show/2642/&quot;&gt;Social Source Commons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <pubDate>Fri, 18 Dec 2020 00:00:00 +0100</pubDate>
+                <link>http://localhost:4000/blog/how-translation-works-in-gnome</link>
+                <guid isPermaLink="true">http://localhost:4000/blog/how-translation-works-in-gnome</guid>
+                
+                <category>GNOME</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>

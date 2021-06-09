@@ -12,6 +12,8 @@ remote_theme        : YoussefRaafatNasry/portfolYOU
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-feed
+
 
 
 ### Navbar Settings ###

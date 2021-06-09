@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-09T13:18:12+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Amanda  Shafack</title><subtitle>The Future Belongs To The Competent. Find Your Fire, Get Good, Get Better, Become The Best!  – Brian Tracy  </subtitle><author><name>Amanda  Shafack</name></author><entry><title type="html">New Features on the Translation Editor</title><link href="http://localhost:4000/blog/new-features-on-the-translation-editor" rel="alternate" type="text/html" title="New Features on the Translation Editor" /><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><id>http://localhost:4000/blog/new-features-on-the-translation-editor</id><content type="html" xml:base="http://localhost:4000/blog/new-features-on-the-translation-editor">&lt;p&gt;&lt;img src=&quot;https://image.freepik.com/free-vector/new-functions-concept-illustration_114360-6156.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;New feature alert!!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I just wrapped up with my Outreachy internship at the GNOME foundation and I’m very excited to say it’s now possible to “reserve” and “upload” a translation module, directly from the GNOME Translation Editor. However, these changes are yet to be added to the master branch; definitely after the string freeze. There are still a number of UI/UX improvements that need to be done but it’s functional.
+As with every new version, there’s always room for improvement so don’t hesitate to provide feedback.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-reserve-for-translation&quot;&gt;I. Reserve for translation&lt;/h2&gt;
+
+&lt;p&gt;You can reserve a translation module (aka po file) to let other team members know you are currently working on a particular po file, so that multiple people don’t work on one file at a given moment.&lt;/p&gt;
+
+&lt;p&gt;To reserve a translation module:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Click on the Load from DL button (if you are on the main window) or Open from Damned Lies icon (if a po file is open) in the header bar. You can also use the Ctrl+D keyboard shortcut.&lt;/li&gt;
+  &lt;li&gt;Select your desired po file; specifying the particular team, module, branch and domain.&lt;/li&gt;
+  &lt;li&gt;The state of the po file is displayed.&lt;/li&gt;
+  &lt;li&gt;Select the “Reserve for translation” checkbox to reserve your chosen po file.&lt;/li&gt;
+  &lt;li&gt;A message dialog will display the status of the operation.&lt;/li&gt;
+  &lt;li&gt;If the message dialog displays a success message, you have successfully reserved the po file for translation.&lt;/li&gt;
+  &lt;li&gt;If the “Reserve for translation” checkbox is deactivated, it means the po file cannot be reserved. This is because it is not in the appropriate state. See the &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&quot;&gt;Vertimus workflow&lt;/a&gt; for more details.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ii-upload-a-new-translation&quot;&gt;II. Upload a new translation&lt;/h2&gt;
+
+&lt;p&gt;After translating a po file, you can upload it to Damned Lies(DL) to make the new version available to everyone and to make DL show the new statistics for that file. Note that the po file that is uploaded is that which is currently open at a given time; as it is not yet possible to manually select a file to upload.&lt;/p&gt;
+
+&lt;p&gt;To upload a po file:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Click on the Upload file icon in the header bar or use the Ctrl+B keyboard shortcut.&lt;/li&gt;
+  &lt;li&gt;A message dialog will display the status of the operation.&lt;/li&gt;
+  &lt;li&gt;If the message dialog displays a success message, you have successfully uploaded the po file to Damned Lies.&lt;/li&gt;
+  &lt;li&gt;Again, if the Upload file icon is deactivated, it means the po file cannot be uploaded. This is because it is not in the appropriate state. Again, see the &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&amp;quot;&quot;&gt;vertimus workflow&lt;/a&gt; for more details.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note that a po file must be reserved (in the state; Translating) before it can be uploaded to Damned Lies&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s been a very interesting learning experience and I’m very glad with this milestone.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Many thanks to my mentor Daniel Garcia Moreno (@danigm) for his superb mentorship and support through out my internship&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks!!&lt;/p&gt;</content><author><name>Amanda  Shafack</name></author><category term="GNOME" /><category term="Open-source" /><summary type="html"></summary></entry><entry><title type="html">Next Steps after Outreachy</title><link href="http://localhost:4000/blog/next-steps-after-outreachy" rel="alternate" type="text/html" title="Next Steps after Outreachy" /><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><id>http://localhost:4000/blog/next-steps-after-outreachy</id><content type="html" xml:base="http://localhost:4000/blog/next-steps-after-outreachy">&lt;!-- Source: [RICO STA. CRUZ](https://ricostacruz.com/til/a-better-hello-world) --&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bit.ly/3w9BxMs&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Getting selected for the Outreachy program and working at the GNOME foundation in particular, has been one of the biggest blessings I’ve received this year. I’ve met soo many kind people, learnt a lot and gained soo much confidence in myself. It has been nothing short of amazing!!&lt;/p&gt;
+
+&lt;p&gt;I’m very glad to talk about my overall experience, the things I’ve learnt and what I plan to do next in my career.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s dive in!!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;i-overall-experience&quot;&gt;I. Overall Experience&lt;/h2&gt;
+
+&lt;p&gt;I’ve had the opportunity to work with the most brilliant people I’ve ever met from fellow interns, to mentors and other community members. These folks are very hardworking and truly passionate about their work.&lt;/p&gt;
+
+&lt;p&gt;I worked on GNOME’s Translation Editor (aka Gtranslator), which was dependent on the &lt;a href=&quot;https://l10n.gnome.org/&quot;&gt;Damned Lies(DL)&lt;/a&gt; project. There was a lot of back and forth pitching to convince the DL team on the new endpoints I intended to introduce to the DL API. It was very interesting to learn about the varying opinions from the different parties and too see how detail oriented folks where about taking decisions. The next weekend, the DL maintainer attended to all my requests and I eventually completed my project in time.&lt;/p&gt;
+
+&lt;p&gt;Generally I’ll say the GNOME community is very welcoming, supportive and provides a great platform where one can grow technically and otherwise.&lt;/p&gt;
+
+&lt;h2 id=&quot;ii-new-skills&quot;&gt;II. NEW SKILLS&lt;/h2&gt;
+
+&lt;p&gt;While working on the Translation Editor(TE) and interacting with other GNOME community members, I learnt many things, but I’ll just highlight the the top three:&lt;/p&gt;
+
+&lt;h4 id=&quot;time-managementmultitasking&quot;&gt;Time Management/Multitasking&lt;/h4&gt;
+
+&lt;p&gt;I learnt from my mentor that, he has a full time job and maintains three other projects and most probably has a side project. Also, following up some discussions on irc channels make me believe this is true for a good number of people in the community.&lt;/p&gt;
+
+&lt;p&gt;This made me understand that I could actually do more with my time. So I’ve reorganized myself and working towards doing more.&lt;/p&gt;
+
+&lt;h4 id=&quot;delivering-quality-work&quot;&gt;Delivering Quality Work&lt;/h4&gt;
+
+&lt;p&gt;A few weeks into my internship, I had just added some mini-feature to TE; the module state of a translation module. Then a community member appraised the little milestone I had achieved and came up with a very detail UI/UX design for what he believed would be of more value to the TE users. His proposal was just excellent; especially coming from someone who wasn’t even a designer. I just imagined the time he put in and his thought process to come up with such a piece. I have equally noticed this kind of excellent delivery with my mentor and other community members.&lt;/p&gt;
+
+&lt;h4 id=&quot;being-open-and-kind&quot;&gt;Being open and kind&lt;/h4&gt;
+
+&lt;p&gt;This community is full of highly skilled people who are always willingly to share their knowledge and give a helping hand to newbies in the best possible way.&lt;/p&gt;
+
+&lt;h2 id=&quot;iii-next-steps&quot;&gt;III. Next Steps&lt;/h2&gt;
+
+&lt;p&gt;My internship is over but I feel powered up and I now have soo much confidence in my abilities.&lt;/p&gt;
+
+&lt;p&gt;I’m currently open to fulltime jobs as either a Software Developer, Software Engineer, Developer Advocate or anything exciting that enables me code and share my knowledge. I have some experience coding in C, Python and Dart/Flutter. In addition I’m open to learning new technologies and challenging projects that push me to think out of the box.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;And Of course I’ll continue contributing to open-source on the side.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I’ll like to thank everyone who has played a significant role in my technical growth through out this internship.
+Equally many thanks to Outreachy and the GNOME foundation for this opportunity.&lt;/p&gt;</content><author><name>Amanda  Shafack</name></author><category term="Outreachy" /><summary type="html"></summary></entry><entry><title type="html">Outreachy Progress Report</title><link href="http://localhost:4000/blog/outreachy-progress-report" rel="alternate" type="text/html" title="Outreachy Progress Report" /><published>2021-01-24T00:00:00+01:00</published><updated>2021-01-24T00:00:00+01:00</updated><id>http://localhost:4000/blog/outreachy-progress-report</id><content type="html" xml:base="http://localhost:4000/blog/outreachy-progress-report">&lt;p&gt;&lt;img src=&quot;https://image.freepik.com/free-vector/career-progress-concept-illustration_114360-3348.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m halfway gone into my Outreachy internship at the GNOME Foundation. Time flies so fast right? I’m a little emotional cuz I don’t want this fun adventure to end soo soon. Just roughly five weeks to go!!
+Oh well, let’s find out what I’ve been able to achieve over the past eight weeks and what my next steps are…&lt;/p&gt;
+
+&lt;p&gt;My internship project is to complete the integration between the GNOME Translation Editor (previously known as Gtranslator) and Damned Lies(DL). This integration involves enabling users to reserve a file for translation directly from the Translation Editor and permitting them to upload po files to DL.&lt;/p&gt;
+
+&lt;p&gt;Incase you don’t understand any terminology or not you haven’t heard about these projects before, kindly read this &lt;a href=&quot;https://lkmandy.github.io/lkmandy.github.io/my-learning-curve-at-the-gnome-foundation&quot;&gt;blog post&lt;/a&gt; and you’ll clear all your doubts.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s move forward!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So far, here are the things I’ve been able to accomplish:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Setup a button and required functions for the “reserve for translation” feature.&lt;/li&gt;
+  &lt;li&gt;Setup a dialog and associated functions for the “upload file” feature&lt;/li&gt;
+  &lt;li&gt;I added the module sate to the user interface which comes in very handy to enable users know what state a po file is in as on the &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&quot;&gt;vertimus workflow&lt;/a&gt;. This will permit them know what actions can be performed.&lt;/li&gt;
+  &lt;li&gt;In addition, users can now see custom DL headers on po files downloaded from DL or opened locally and even edit the headers as required from the edit header dialog.&lt;/li&gt;
+  &lt;li&gt;Added some endpoints to the DL REST API to authenticate (Token Authentication) a user who wants to perform the “reserve for translation” or “upload file” operation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What’s left?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The endpoints I added to the DL REST API need to be approved and merged, so that I can write real queries and complete the functions I’ve created for the above mentioned two features. I got some feedback on the merge request I did, which I’m currently working on.&lt;/li&gt;
+  &lt;li&gt;Ensure that memory has been managed properly and handle security vulnerabilities.&lt;/li&gt;
+  &lt;li&gt;Extensive testing and documentation.&lt;/li&gt;
+  &lt;li&gt;Final evaluation and wrapping up.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;The big question is &lt;strong&gt;I’m I on track??&lt;/strong&gt; Oh well let’s find out&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I have completed 8 out of 13 weeks of my internship. according to my timeline, I’m supposed to have a version one of both features working properly. I’m about 90% close to achieving this goal.&lt;/p&gt;
+
+&lt;p&gt;Since my project is dependent on another project, it’s a little challenging to go as fast as possible. This is because communication needs to be done with the community members managing the DL project and getting feedback or convincing them on why my changes are necessary takes quite some time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next Steps:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I need to push hard for the DL team to merge my changes in time.&lt;/li&gt;
+  &lt;li&gt;Stay focused and complete the tasks I have left.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;I’m glad all is well and with some determination and push, I should deliver my project in time&lt;/em&gt;&lt;/p&gt;</content><author><name>Amanda  Shafack</name></author><category term="Outreachy" /><summary type="html"></summary></entry><entry><title type="html">My Learning Curve at the GNOME Foundation</title><link href="http://localhost:4000/blog/my-learning-curve-at-the-gnome-foundation" rel="alternate" type="text/html" title="My Learning Curve at the GNOME Foundation" /><published>2021-01-10T00:00:00+01:00</published><updated>2021-01-10T00:00:00+01:00</updated><id>http://localhost:4000/blog/my-learning-curve-at-the-gnome-foundation</id><content type="html" xml:base="http://localhost:4000/blog/my-learning-curve-at-the-gnome-foundation">&lt;p&gt;&lt;img src=&quot;https://image.freepik.com/free-psd/crumpled-paper-form-light-bulb-more-you-learn-more-you-earn-quote_23-2148347760.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s been six weeks since I started this exciting journey as an Outreachy intern at the GNOME Foundation.
+Every week, I have a set of tasks to work on and a project review session every start of the week with my mentor.&lt;br /&gt;
+During these sessions I present the work I’ve done, challenges I faced and then get feedback. I’ve had to learn most things on the go and every task comes with it’s own unique flavour of difficulty and discovery.
+&lt;em&gt;Let’s take a quick look at the project I’m working on…&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My project is based on completing the integration between Gtranslator and Damned Lies(DL), so as to permit translators to upload files and reserve for translation directly from Gtranslator.(This is already possible from the DL website).
+I also need to extend the API(Application Programming Interface) endpoints DL provides so as to suite my use case.&lt;/p&gt;
+
+&lt;h4 id=&quot;gtranslator&quot;&gt;Gtranslator&lt;/h4&gt;
+
+&lt;p&gt;Gtranslator is an enhanced gettext po file editor for the GNOME desktop environment. It handles all forms of gettext po files and includes very useful features like find/replace, translation memory, different translator profiles, messages table, easy navigation and editing of translation messages and comments of the translation where accurate.&lt;/p&gt;
+
+&lt;p&gt;A .po file is simply a list of strings from the original program. They contain the actual translations. Each language has its own .po file; for example, for French there would be a fr.po file, for German there would be a de.po, for American English there might be en-US.po.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Gtranslator is now officially called the GNOME Translation Editor &lt;a href=&quot;https://wiki.gnome.org/Apps/Gtranslator&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;damned-lies&quot;&gt;Damned Lies&lt;/h4&gt;
+
+&lt;p&gt;Damned Lies is a web application that was built using Django to manage GNOME’s translation work-flow and produce 
+statistics to monitor the translation progress.
+You might be wondering why the name, right? so here you go - “Lies, damned lies, and statistics” is a phrase describing the persuasive power of numbers, particularly the use of statistics to bolster weak arguments.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s now find out how I have progressed in my learning so far…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;difficulty-levels&quot;&gt;Difficulty Levels&lt;/h3&gt;
+
+&lt;p&gt;First off keep an eye on this “letter map”, I’ll use the letters defined below to depict the difficulty level of a particular week.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;E:&lt;/strong&gt; Easy&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;N:&lt;/strong&gt; Normal&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;H:&lt;/strong&gt; Hard&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;V:&lt;/strong&gt; Very Hard&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-one&quot;&gt;Week One&lt;/h3&gt;
+
+&lt;p&gt;It was an &lt;strong&gt;E&lt;/strong&gt;!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I setup my blog (lkmandy.github.io), added it to gnome planet and wrote a blogpost on &lt;a href=&quot;https://lkmandy.github.io/lkmandy.github.io/blog/2020/tips-on-getting-selected-for-the-outreachy-program/&quot;&gt;Tips on Getting Selected for the Outreachy Program&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Setup the Damned Lies project&lt;/li&gt;
+  &lt;li&gt;Covered some concepts in Django, REST APIs and the HTTP verbs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-two&quot;&gt;Week Two&lt;/h3&gt;
+
+&lt;p&gt;I’ll give it an &lt;strong&gt;N&lt;/strong&gt;!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Did some intensive research on Django API authentication(auth) methods and eventually settled on the Django REST API framework. Django has soo many auth packages to choose from, so this was quite a task.&lt;/li&gt;
+  &lt;li&gt;Added some endpoints for user authentication and yes this means I built a REST API!! Yay!! My very first!!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-three&quot;&gt;Week Three&lt;/h3&gt;
+
+&lt;p&gt;Returned to an &lt;strong&gt;E&lt;/strong&gt;!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Submitted a Work In Progress Merge Request for the REST API I built&lt;/li&gt;
+  &lt;li&gt;Did some research on the JSON-Glib and Libsoup libraries.&lt;/li&gt;
+  &lt;li&gt;Added a “Reserve for Translation button” on the Gtranslator user interface (just in a bid to setup for the main work)&lt;/li&gt;
+  &lt;li&gt;Wrote a blogpost on &lt;a href=&quot;https://lkmandy.github.io/lkmandy.github.io/blog/2020/how-translation-works-in-gnome/&quot;&gt;How Translation works in GNOME&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-four&quot;&gt;Week Four&lt;/h3&gt;
+
+&lt;p&gt;Somewhat &lt;strong&gt;H&lt;/strong&gt;!&lt;br /&gt;
+&lt;em&gt;Mainly because I had to research and troubleshoot a lot before seeing the green light&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added the module state to the Load from DL interface and submitted a Merge Request&lt;/li&gt;
+  &lt;li&gt;Enabled the “Reserve for translation button” to work for the appropriate states as on the vertimus workflow (a diagram that describes the various states and actions available during the translation process of a module) and I equally submitted a Merge Request.&lt;/li&gt;
+  &lt;li&gt;Added an icon for the upload to DL feature (just did this locally on a separate branch)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-five&quot;&gt;Week Five&lt;/h3&gt;
+
+&lt;p&gt;And I’ll give it an &lt;strong&gt;E&lt;/strong&gt;!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Designed two mockups for the “upload file dialog”&lt;/li&gt;
+  &lt;li&gt;Coded one part of the upload file dialog(the choose file dialog)&lt;/li&gt;
+  &lt;li&gt;Tried adding the token auth information to Gtranslator, but didn’t succeed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;week-six&quot;&gt;Week Six&lt;/h3&gt;
+
+&lt;p&gt;I can’t lie oh, it’s a &lt;strong&gt;V&lt;/strong&gt;
+&lt;em&gt;I’m currently on this week and it finishes in one days as of the time I am writing this blogpost&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stored the DL information on every translation file downloaded from DL&lt;/li&gt;
+  &lt;li&gt;Added custom headers to a file with the DL information if it’s downloaded from DL&lt;/li&gt;
+  &lt;li&gt;Create the “upload file” dialog (WIP)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;A few things I’ve helped me scale through, let’s check them out…&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;tricks&quot;&gt;Tricks&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After my project review session, I go through the discussion my mentor and I (and maybe some other community members) just had, pick out all the key point mentioned and summarize them in my evernote sheet.
+&lt;em&gt;My mentor usually does a recap of the goals I need to achieve for the week, which is also very very helpful&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;I read through my summary several times to make sure i don’t miss out on any detail&lt;/li&gt;
+  &lt;li&gt;When a task gets hard, I never give up. I just take breaks and push hard until I succeed.&lt;/li&gt;
+  &lt;li&gt;I do extensive research and go through documentation before implementing stuff&lt;/li&gt;
+  &lt;li&gt;I submit Merge Requests as early as possible so I can get quick feedback (kudos to my mentor for this)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s been an interesting journey and I’m very happy with all the new things I get to learn everyday.&lt;br /&gt;
+The end!!
+See you on the next one!!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thanks!!&lt;/p&gt;</content><author><name>Amanda  Shafack</name></author><category term="Outreachy" /><summary type="html"></summary></entry><entry><title type="html">Everybody Struggles</title><link href="http://localhost:4000/blog/everybody-struggles" rel="alternate" type="text/html" title="Everybody Struggles" /><published>2020-12-21T00:00:00+01:00</published><updated>2020-12-21T00:00:00+01:00</updated><id>http://localhost:4000/blog/everybody-struggles</id><content type="html" xml:base="http://localhost:4000/blog/everybody-struggles">&lt;p&gt;&lt;img src=&quot;https://image.freepik.com/free-photo/upset-tired-woman-keeps-both-hands-temples-frowns-face-feels-overworked-after-working-long-time_273609-33989.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During week two (December 8 to 14) of my internship at the GNOME foundation, my main task was to research on the Django “API” authentication methods and implement a mode of Authentication, that will provide a secret random string, instead of the usual user-password mode to authenticate users, who had to gain access to the write APIs I was going to develop. My mentor recommended I go the Api key way, so I went on to do my work.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The first issue was picking the right Django app/package to use from the bunch of packages I found:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;django-packages&quot;&gt;Django Packages&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Django rest framework&lt;/li&gt;
+  &lt;li&gt;Django Tastypie&lt;/li&gt;
+  &lt;li&gt;GRAPHENE-DJANGO&lt;/li&gt;
+  &lt;li&gt;Piston&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Just to name a few&lt;/em&gt;…&lt;/p&gt;
+
+&lt;p&gt;Luckily I stumbled on the &lt;a href=&quot;https://djangopackages.org/grids/g/api/&quot;&gt;Django packages grid&lt;/a&gt; which clearly outlined the features of each package. It became crystal clear that the Django rest framework was the real deal.&lt;/p&gt;
+
+&lt;p&gt;The next challenge was the Auth section of the &lt;a href=&quot;https://www.django-rest-framework.org/api-guide/authentication/#tokenauthentication&quot;&gt;Django Rest Framework&lt;/a&gt; documentation didn’t speak the Api Key language, but rather the Token-based Auth language. As a beginner, this was quite confusing and I kept wondering what the difference between these two was.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I did some extensive research and here’s what I found…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;api-keys&quot;&gt;API Keys&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using API keys is a way to authenticate an application accessing the API, without referencing an actual user. The app adds the key to each API request, and the API can use the key to identify the application and authorize the request. The key can then be used to perform things like rate limiting, statistics, and similar actions.
+&lt;a href=&quot;https://nordicapis.com/the-difference-between-http-auth-api-keys-and-oauth/&quot;&gt;source - Nordic APIs&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;An application programming interface key (API key) is a unique code that is passed in to an API to identify the calling application or user. API keys are used to track and control how the API is being used, for example to prevent malicious use or abuse of the API. The API key often acts as both a unique identifier and a secret token for authentication, and is assigned a set of access that is specific to the identity that is associated with it.&lt;br /&gt;
+&lt;a href=&quot;https://cloud.ibm.com/docs/account?topic=account-manapikey&quot;&gt;source - IBM Cloud&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The only django package that provided an option for apikeys added to this to their README file &lt;em&gt;Please note that this package is NOT meant for authentication. You should NOT use this package to identify individual users, either directly or indirectly.&lt;/em&gt; &lt;a href=&quot;https://florimondmanca.github.io/djangorestframework-api-key/&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;token-based-authentication&quot;&gt;Token-based Authentication&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Token-based authentication is a protocol which allows users to verify their identity, and in return receive a unique access token. During the life of the token, users then access the website or app that the token has been issued for, rather than having to re-enter credentials each time they go back to the same webpage, app, or any resource protected with that same token. &lt;a href=&quot;https://www.okta.com/identity-101/what-is-token-based-authentication/#:~:text=Token%2Dbased%20authentication%20is%20a,receive%20a%20unique%20access%20token.&amp;amp;text=Auth%20tokens%20work%20like%20a,app%2C%20the%20token%20is%20invalidated.&quot;&gt;source - Okta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Reading these conflicting write-ups confused me further and I wasn’t exactly sure which one was right for my use case. What I was sure about was that I needed to authenticate users before they could gain access to the write APIs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I reached out to a few people and got some very good clarifications. It became clear that Token-based Authentication was the way to go because it met my requirements and was better supported by the Django rest framework.&lt;/p&gt;
+
+&lt;h3 id=&quot;lessons-learnt&quot;&gt;Lessons Learnt&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Always ask for help from a more experienced person when you’re stuck, it will save you a lot of time.&lt;/li&gt;
+  &lt;li&gt;Read articles keenly, some maybe outdated or provide details which may not be totally correct or could just be suited for some particular use cases.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Let me know what you think about the Api Key Vs Token Auth Struggle…&lt;/em&gt;&lt;/p&gt;</content><author><name>Amanda  Shafack</name></author><category term="Outreachy" /><summary type="html"></summary></entry><entry><title type="html">How Translation Works in GNOME</title><link href="http://localhost:4000/blog/how-translation-works-in-gnome" rel="alternate" type="text/html" title="How Translation Works in GNOME" /><published>2020-12-18T00:00:00+01:00</published><updated>2020-12-18T00:00:00+01:00</updated><id>http://localhost:4000/blog/how-translation-works-in-gnome</id><content type="html" xml:base="http://localhost:4000/blog/how-translation-works-in-gnome">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;GNOME uses a web application called Damned Lies (DL) to manage their translation work-flow and produce 
+statistics to monitor the translation progress. DL is specifically intended to be used within GNOME. 
+There used to be a separate tool called Vertimus but it has been merged  into DL.
+Participants in the translation of GNOME belong to translation teams, one for each language to which 
+GNOME is translated, and they can have one of three roles: translator, reviewer and committer&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s dig deeper into what these roles entails…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;translation-roles&quot;&gt;Translation Roles&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-translators&quot;&gt;1. Translators&lt;/h3&gt;
+
+&lt;p&gt;Translators contains persons helping with GNOME translations into a specific language, who added themselves to the translation team.Translators could add comment to a specific PO file translation, 
+could reserve it for translations and could suggest new translations by up471 load a new PO file. 
+The suggested translations will be reviewed by other team members&lt;/p&gt;
+
+&lt;h3 id=&quot;2-reviewer&quot;&gt;2. Reviewer&lt;/h3&gt;
+
+&lt;p&gt;Reviewers are GNOME translators which were assigned by the team coordinator to review newly suggested translations(by translators,reviews or committers). They have access to all actions available to a translators with the addition of some reviewing task (ex reserve a translation file for proofreading, mark a translation as being ready to be included in GNOME).&lt;/p&gt;
+
+&lt;h3 id=&quot;3-committer&quot;&gt;3. Committer&lt;/h3&gt;
+
+&lt;p&gt;Committers are people with rights to make changes to the GNOME translations that will be release.
+Unless a translations is not commit481 ted by a committer, it will only remain visible in the web interface, as an attached PO file. Committers have access to all actions of a reviewer with the addition of marking a PO file as committed and archiving a discussion for new suggestions.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-translation-workflow&quot;&gt;The Translation Workflow&lt;/h2&gt;
+
+&lt;p&gt;The workflow used for managing translations is called the &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&quot;&gt;Vertimus Workflow&lt;/a&gt;. It describes the various states and actions available during the translation process of a module.
+My focus will be on the orange section of the workflow, which is peculiar to translators (as illustrated here &lt;a href=&quot;https://l10n.gnome.org/help/vertimus_workflow/&quot;&gt;workflow image&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The base state of a module is None, which shows as “Inactive” in Damned lies.&lt;/li&gt;
+  &lt;li&gt;A translator can then decide to work on a module, so they will &lt;strong&gt;Reserve for Translation&lt;/strong&gt; which changes the state from &lt;strong&gt;None -&amp;gt; Translating&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Another pathway that enables one to perform a &lt;strong&gt;Reserve for Translation&lt;/strong&gt; is moving from the &lt;strong&gt;To review -&amp;gt; Translating&lt;/strong&gt; state. This happens when a module was not properly translated.&lt;/li&gt;
+  &lt;li&gt;When a translator is done translating, they can then &lt;strong&gt;Upload the new translation&lt;/strong&gt;, which changes the state from &lt;strong&gt;Translating&lt;/strong&gt; -&amp;gt; &lt;strong&gt;Translated&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Again, if a module needs to be improved after being translated, it moves from &lt;strong&gt;Translated -&amp;gt; Tranlating&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Bear in mind that translators can add comments at any point in order to give more context to their work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This post is in a bit to evaluate my understanding. I’ll appreciate any feedback so I can improve and or correct any misconceptions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Thanks!!&lt;/p&gt;
+
+&lt;h3 id=&quot;referencesmore-reads&quot;&gt;References/More Reads&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.apertis.org/designs/internationalization/internationalization.pdf&quot;&gt;APERTIS - Internationalization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.gnome.org/TranslationProject/ContributeTranslations&quot;&gt;GNOME Wiki&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://socialsourcecommons.org/tool/show/2642/&quot;&gt;Social Source Commons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Amanda  Shafack</name></author><category term="GNOME" /><summary type="html">Overview</summary></entry><entry><title type="html">Tips on the Outreachy Program</title><link href="http://localhost:4000/blog/tips-on-getting-selected-for-the-outreachy-program" rel="alternate" type="text/html" title="Tips on the Outreachy Program" /><published>2020-12-02T00:00:00+01:00</published><updated>2020-12-02T00:00:00+01:00</updated><id>http://localhost:4000/blog/tips-on-getting-selected-for-the-outreachy-program</id><content type="html" xml:base="http://localhost:4000/blog/tips-on-getting-selected-for-the-outreachy-program">&lt;!-- Source: [GitHub Guides](https://guides.github.com/introduction/flow/) --&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://bit.ly/3w5T3Bb&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I got introduced to open-source through a tech community called Google Developers Group Buea. This is where I learnt about the Outreachy program. Successful applicants of the program gave talks about the projects they worked on and how amazing the experience was. They were soo skilled in coding and spoke with a lot of confidence. I saw several other community members grow technically in phenomenal ways during and after the program. Even those who only ended at the contribution phase still had great growth stories to tell. One person said, “Outreachy is a great mental exercise even if you don’t make it to the finish line. The competitive atmosphere pushes you to accomplish things you can’t do under normal circumstances.” It was at this point that I made up my mind to look into the program.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Let’s look into what this program is all about&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;what-is-outreachy&quot;&gt;What is Outreachy?&lt;/h2&gt;
+
+&lt;p&gt;Outreachy is a program that provides a three-month internship to work in Free and Open Source Software (FOSS). Interns are paid a stipend of $5,500 and have a $500 travel stipend available to them. Outreachy happens twice a year and internship projects may include programming, user experience, documentation, illustration and graphic design, or data science.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-should-you-be-interested&quot;&gt;Why should you be interested?&lt;/h2&gt;
+
+&lt;p&gt;Outreachy is a great opportunity for one to build their skillsets while working on real-world projects. Also, you’ll have access to a large community with experts in different areas and a dedicated mentor who will coach you throughout the entire project. Furthermore, it’s a great addition to your portfolio, clear proof that you’ve got some good skills.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-application-process&quot;&gt;The Application Process&lt;/h2&gt;
+
+&lt;p&gt;The Outreachy application process is divided into two parts:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Initial Application phase
+Here you’d be required to prove that you are eligible for the program by filling out a form and providing answers to four short essays. This phase usually takes about four weeks. After all initial  applications are processed, successful applicants move on to phase two - the contribution phase.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Contribution phase
+During this phase, you are required to make at least one contribution to the open-source organization you wish to work with. This contribution can be in the form of a successfully merged pull request/merge  request, or basically, any task listed and approved by the mentor(s) of that project. The next step is to record your contribution(s) and then craft out your final application. This phase usually takes about four to six weeks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As you can see, the Outreachy program is quite intense and competitive. So if you’d like to get in, it’s important to be at the top of your game.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Have a winning mentality
+The first step to winning is believing that you have what it takes to succeed. You need to prepare yourself mentally and be confident in your abilities. Do not say “I’ll just try” but rather go in like “I’ve got this, I can do this”&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Start early
+Once the program is announced, apply as early as you can. This will give you ample time to write good essays and get feedback from peer reviewers during initial applications.
+After submitting your initial application, start looking at possible projects you would like to work on and do some research on the listed organization(s). You can do this by navigating to Applicants -&amp;gt; Current  Projects on the navbar at &lt;a href=&quot;https://www.outreachy.org/&quot;&gt;https://www.outreachy.org/&lt;/a&gt;. Bear in mind that you will only be able to see a summary of the  project, as the full details of the projects are made available only to applicants with successful initial  applications. However, using this information to plan can make a big difference.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pay attention to details
+When going through any information at any stage of the application process, make sure you read between the lines.
+You might miss some important detail just because you took some piece of information for granted.
+Sometimes some projects are closed early because of a high number of applicants, so if you aren’t alert, you  might miss new updates or deadlines.
+In the same light, when picking a project, make sure your skills match any project you pick, by carefully  going through the project’s requirements.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Master your craft
+Applicants who intend to take up programming-based projects, it’s good to have a good mastery in at least one programming language and you should have played around with a framework based on that language. Also, having a few projects you’ve worked on in the past puts you at an advantage. This works the same for  other projects around design, testing, etc. If you already have the required skills, you’ll spend more time  making valuable contributions rather than spending lots of hours trying to learn before contributing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pick at most two projects
+Picking more than two projects will weight down on you seriously and you might not be able to manage them effectively. It’s preferable to focus on one or two things and do a good job.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;6.Communicate often and in public chats
+During the contribution phase, make sure you communicate with your mentor frequently, at least twice a week.
+The mentor knows nothing about you, so this is the time when they’ll be able to have an idea of who you are and how you process information. It’s equally good to speak more on public channels. This will show that you can collaborate with other community members and will most definitely work well in a team.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Focus on quality contributions
+Aim to deliver excellent results in everything you do no matter how small your task may be. Taking time to work on a single task properly brings more value and will be much more appreciated by the project maintainer and your mentor(s) as well.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These tips worked for me and I believe that heeding to them will significantly increase your chances of getting selected into the Outreachy program.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Remember that you might lose a few battles, but the most important thing is to restrategize and work hard towards winning the war.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Amanda  Shafack</name></author><category term="Outreachy" /><summary type="html"></summary></entry></feed>
