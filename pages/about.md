@@ -9,8 +9,8 @@ weight: 1
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
 
-I am a Software Engineer who is highly passionate about building communities through education and technology. I am also a lifelong learner and an open-source contributor. I have contributed to organizations like Muzima, Git and most recently GNOME.
-My long-term goal is to use Dart/Flutter to build applications, that solve pertinent problems in under developed countries. I also plan to some day become a Google Developer Expert in Flutter.
+I am a Software Engineer who is highly passionate about building communities through education and technology. I am invested in lifelong learner and an open-source contributor. I have contributed to organizations like Muzima, Git and most recently GNOME.
+My long-term goal is to use Dart/Flutter to build applications, that solve pertinent problems in under developed countries. I plan to some day become a Google Developer Expert in Flutter.
 I am based at the foot of Mount Cameroon, in a small town called Buea. I occasionally blog about my contributions to GNOME, my experiences in tech and other fun stuff. Feel free to reach out on any of my social media platforms, if you are interested in connecting further.
 
 
