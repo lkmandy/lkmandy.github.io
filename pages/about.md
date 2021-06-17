@@ -11,7 +11,8 @@ Hi I am **{{ site.author.name }}** :wave:,<br>
 
 I am a Software Engineer who is highly passionate about building communities through education and technology. I am invested in lifelong learner and an open-source contributor. I have contributed to organizations like Muzima, Git and most recently GNOME.
 My long-term goal is to use Dart/Flutter to build applications, that solve pertinent problems in under developed countries. I plan to some day become a Google Developer Expert in Flutter.
-I am based at the foot of Mount Cameroon, in a small town called Buea. I occasionally blog about my contributions to GNOME, my experiences in tech and other fun stuff. Feel free to reach out on any of my social media platforms, if you are interested in connecting further.
+I am based at the foot of Mount Cameroon, in a small town called Buea. 
+I occasionally blog about my contributions to GNOME, my experiences in tech and other fun stuff. Feel free to reach out on any of my social media platforms, if you are interested in connecting further.
 
 
 <!-- Since 2016, I have contributed to the growth of the tech ecosystem in Buea, Cameroon as a Co-organizer at [Google Developers Group](https://developers.google.com/community/gdg) and a [Women Techmakers](https://www.womentechmakers.com) Ambassador. I began as a volunteer, and a year later, I took up these leadership roles. I raised female membership from 15 to over 220 members. Also, I organized over [15 major events](https://www.meetup.com/GDG-Buea/events/past/) like Google I/O Extended, DevFest, International Women’s Day and Study jams. At the end of 2017, I was featured among the [50 Most Influential Young Cameroonians](https://www.camerbeaute.com/career/39r7ssshldnss5wltyg8mkph62shkf) by Avance in recognition of my contributions.
