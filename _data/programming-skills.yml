@@ -8,4 +8,4 @@
 
 - name: Python
   percentage: 45
-  color: dark
+  color: warning
