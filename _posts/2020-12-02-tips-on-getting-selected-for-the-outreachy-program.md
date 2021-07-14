@@ -61,7 +61,7 @@ Applicants who intend to take up programming-based projects, it's good to have a
 5. Pick at most two projects
 Picking more than two projects will weight down on you seriously and you might not be able to manage them effectively. It's preferable to focus on one or two things and do a good job.
 
-6.Communicate often and in public chats
+6. Communicate often and in public chats
 During the contribution phase, make sure you communicate with your mentor frequently, at least twice a week.
 The mentor knows nothing about you, so this is the time when they'll be able to have an idea of who you are and how you process information. It's equally good to speak more on public channels. This will show that you can collaborate with other community members and will most definitely work well in a team.
 
