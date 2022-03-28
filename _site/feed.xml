@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-06-09T13:18:12+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Amanda  Shafack</title><subtitle>The Future Belongs To The Competent. Find Your Fire, Get Good, Get Better, Become The Best!  – Brian Tracy  </subtitle><author><name>Amanda  Shafack</name></author><entry><title type="html">New Features on the Translation Editor</title><link href="http://localhost:4000/blog/new-features-on-the-translation-editor" rel="alternate" type="text/html" title="New Features on the Translation Editor" /><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><id>http://localhost:4000/blog/new-features-on-the-translation-editor</id><content type="html" xml:base="http://localhost:4000/blog/new-features-on-the-translation-editor">&lt;p&gt;&lt;img src=&quot;https://image.freepik.com/free-vector/new-functions-concept-illustration_114360-6156.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-28T14:27:03+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Amanda  Shafack</title><subtitle>The Future Belongs To The Competent. Find Your Fire, Get Good, Get Better, Become The Best!  – Brian Tracy  </subtitle><author><name>Amanda  Shafack</name></author><entry><title type="html">New Features on the Translation Editor</title><link href="http://localhost:4000/blog/new-features-on-the-translation-editor" rel="alternate" type="text/html" title="New Features on the Translation Editor" /><published>2021-03-05T00:00:00+01:00</published><updated>2021-03-05T00:00:00+01:00</updated><id>http://localhost:4000/blog/new-features-on-the-translation-editor</id><content type="html" xml:base="http://localhost:4000/blog/new-features-on-the-translation-editor">&lt;p&gt;&lt;img src=&quot;https://image.freepik.com/free-vector/new-functions-concept-illustration_114360-6156.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;New feature alert!!&lt;/p&gt;
@@ -433,15 +433,15 @@ Applicants who intend to take up programming-based projects, it’s good to have
     &lt;p&gt;Pick at most two projects
 Picking more than two projects will weight down on you seriously and you might not be able to manage them effectively. It’s preferable to focus on one or two things and do a good job.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;6.Communicate often and in public chats
+  &lt;li&gt;
+    &lt;p&gt;Communicate often and in public chats
 During the contribution phase, make sure you communicate with your mentor frequently, at least twice a week.
 The mentor knows nothing about you, so this is the time when they’ll be able to have an idea of who you are and how you process information. It’s equally good to speak more on public channels. This will show that you can collaborate with other community members and will most definitely work well in a team.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Focus on quality contributions
-Aim to deliver excellent results in everything you do no matter how small your task may be. Taking time to work on a single task properly brings more value and will be much more appreciated by the project maintainer and your mentor(s) as well.&lt;/li&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Focus on quality contributions
+Aim to deliver excellent results in everything you do no matter how small your task may be. Taking time to work on a single task properly brings more value and will be much more appreciated by the project maintainer and your mentor(s) as well.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;These tips worked for me and I believe that heeding to them will significantly increase your chances of getting selected into the Outreachy program.&lt;/p&gt;
